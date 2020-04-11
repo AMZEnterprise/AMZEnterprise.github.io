@@ -16,7 +16,7 @@
 
 ****************************************************************/
 @import url('plugins/bootstrap.css');
-@import url('plugins/font-awesome.css');
+@import url('plugins/fontawesome/css/all.min.css');
 @import url('plugins/linear-icons.css');
 @import url('plugins/animations.css');
 @import url('plugins/jquery.animatedheadline.css');
@@ -25,3 +25,5 @@
 @import url('plugins/magnific-popup.css');
 @import url('plugins/simplebar.css');
 @import url('plugins/jquery.mb.YTPlayer.min.css');
+
+@import url('../css/style.css');
