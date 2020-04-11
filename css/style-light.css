@@ -414,41 +414,6 @@ a:focus {
   margin: 0 0 10px;
   text-transform: uppercase; }
 
-.progress {
-  height: 10px;
-  background-color: #e3e3e3;
-  -webkit-border-radius: 0;
-  border-radius: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  margin-bottom: 20px;
-  overflow: visible; }
-  .progress .progress-bar {
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    position: relative;
-    background-color: #555555;
-    width: 0;
-    -webkit-transition: all 2s ease-out;
-    -o-transition: all 2s ease-out;
-    transition: all 2s ease-out; }
-    .progress .progress-bar:after {
-      content: "";
-      display: block;
-      border: 15px solid transparent;
-      border-bottom: 21px solid transparent;
-      position: absolute;
-      top: -26px;
-      right: -12px;
-      border-bottom-color: #222; }
-  .progress .progress-value {
-    font-size: 15px;
-    font-weight: bold;
-    color: #000;
-    position: absolute;
-    top: -30px;
-    right: 0; }
-
 /********** Form **********/
 .input {
   display: block;
@@ -1477,15 +1442,7 @@ header .header-mobile {
     border: none; } }
 
 
-
-
-/* .is-hidden{
-  display: none;
+.skills ul li h4{
+  color: #ec0552;
+  font-size: 18px;
 }
-.is-visible{
-  display: inline-block !important;
-  max-width: 100%;
-}
-.cd-words-wrapper b{
-  display: none;
-} */
